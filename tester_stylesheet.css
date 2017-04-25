@@ -4,27 +4,24 @@
   padding:0;
   box-sizing: border-box;
 }
-.banner{
+div.banner{
   background: url("20160702_082347.jpg") no-repeat center center; 
   background-size: cover;
   opacity: 1;
-}
-#banner_text{
   height: 300px;
-  line-height: 300px;
   padding: 20px;
   margin: 20px;
+}
+#banner_text{
+  line-height: 300px;
   text-align: center;
-  font-size: 50px;
+  font-size: 500%;
   opacity: 1;
-  /*
-
-  */
 }
 
-.navigation_bar{
+div.navigation_bar{
   text-align: center;
-  background-color: #B5C6CC;
+  background-color: #CFCFCF;
   padding: 15px 0px;  
 }
 li {
@@ -42,11 +39,19 @@ a{
 }
 
 li.active {
-    background-color: #4CAF50;
+    background-color: #93bac1;
     color: white;
 }
 
 li:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+
+.about_us{
+  margin: 10px;
+  padding: 20px;
+  color: #8C8380;
+  font-size: 20px;
+  text-align: center;
 }
